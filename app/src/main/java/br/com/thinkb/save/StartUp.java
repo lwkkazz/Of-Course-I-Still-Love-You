@@ -20,7 +20,7 @@ public class StartUp extends Activity {
         SharedPreferences sharedSetup = getSharedPreferences(getString(R.string.preference_file_key), Context.MODE_PRIVATE);
 
 
-        Log.d("TAG", "INICIO");
+        Log.d("TAG", "Starting up");
 
         Thread thread = new Thread(){
 
