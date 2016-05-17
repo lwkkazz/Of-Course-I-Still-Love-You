@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    android:background="@drawable/menu">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Procurando Dispositivo"
+        android:id="@+id/textView21"
+        android:layout_gravity="center_horizontal"/>
+
+<!--   -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Dispositivo não encontrado"
+            android:id="@+id/device_name_found"
+            android:layout_gravity="center_vertical" />
+
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:indeterminateOnly="true"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:secondaryProgressTint="@color/colorPrimary"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:id="@+id/progressBar"
+            android:layout_gravity="center_horizontal"
+            android:indeterminate="true"
+            android:contextClickable="false" />
+
+
+
+    </LinearLayout>
+
+
+<!--   -->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="@string/keep_pair"
+        android:id="@+id/foundButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="10"
+        android:onClick="buttonOnClick"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="20" />
+</LinearLayout>

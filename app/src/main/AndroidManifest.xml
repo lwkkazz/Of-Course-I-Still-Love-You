@@ -2,18 +2,55 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.com.thinkb.save" >
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name=".MainActivity" >
+        <activity android:name=".StartUp" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" >
+        </activity>
+        <activity android:name=".LoginActivity" >
+        </activity>
+        <activity android:name=".SignupActivity" >
+        </activity>
+        <activity android:name=".AccountPicker" >
+        </activity>
+        <activity android:name=".SosActivityController" >
+        </activity>
+        <activity android:name=".MenuActivity" >
+        </activity>
+        <activity android:name=".GetPasswordAndLogin" >
+        </activity>
+        <activity android:name=".FindDeviceActivity" >
+        </activity>
+
+        <service
+            android:name=".BluetoothConnectionService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <activity android:name=".CreateAlarm" >
+        </activity>
+        <activity android:name=".TestActivity" >
+        </activity>
+        <activity android:name=".HistActivity" >
+        </activity>
+        <activity android:name=".EditLogin" >
         </activity>
     </application>
 

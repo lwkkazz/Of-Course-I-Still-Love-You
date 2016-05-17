@@ -1,3 +1,68 @@
 <resources>
     <string name="app_name">SAVE</string>
+
+    <string name="first_connect">Reconhecer Pulseira</string>
+    <string name="title_text">Conecte seu celular com a pulseira para utilizar o sistema.</string>
+    <string name="login_text">Faça o login para acessar</string>
+    <string name="email">Login</string>
+    <string name="senha">Senha</string>
+    <string name="salvar_senha">Salvar senha</string>
+    <string name="entrar">Entrar</string>
+
+    <string name="codigo">Chave</string>
+
+    <string name="signup_text">Cadastre-se para começar a usar a pulseira</string>
+
+    <string name="signup">Cadastro do paciente</string>
+    <string name="send">Enviar dados</string>
+
+    <string name="name">Nome</string>
+    <string name="surname">Sobrenome</string>
+    <string name="date">Data Nascimento</string>
+    <string name="gen_id">RG</string>
+    <string name="cpf_id">CPF</string>
+    <string name="address">Endereço</string>
+    <string name="city">Cidade</string>
+    <string name="zipcode">CEP</string>
+    <string name="phone">Telefone</string>
+
+    <string name="login">Login</string>
+    <string name="password">Senha</string>
+
+    <string name="menu_help">Ajuda</string>
+    <string name="menu_help_msg">Para conectar o aplicativo com a pulseira escolha o dispositivo HC-06.</string>
+    
+    <string name="account_picker_title">Escolha o modo de visualização</string>
+    <string name="on_admin">Sou administrador</string>
+    <string name="non_admin">Não sou administrador</string>
+    
+    <string name="on_sync_success">Sincronização concluída com sucesso!</string>
+
+    <string name="sos_title">Modo Emergência</string>
+    <string name="tel_contact">Telefones para contato</string>
+    <string name="tel_sos">Telefones de emergência</string>
+
+    <string name="tel_samu">SAMU</string>
+    <string name="tel_pol">Polícia</string>
+
+
+    <string name="pacient">Paciente:</string>
+    <string name="emergency">Emergência:</string>
+    <string name="next_drug">Próximo remédio:</string>
+
+
+    <string name="set_password">Insira um login e senha para terminar o cadastro</string>
+    <string name="set_login">Login</string>
+    <string name="menu_warning">Aviso</string>
+    <string name="menu_warning_msg">Este aplicativo funciona exclusivamente com o bluetooth ativado.</string>
+    <string name="drug_alarm">Nova medicação</string>
+    <string name="drug_name">Nome da medicação</string>
+    <string name="drug_obs">Observações</string>
+    <string name="drug_time">Horário da medicação</string>
+    <string name="create_drug_time">Criar Alarme</string>
+
+
+    <string name="preference_file_key">shared_pref_file</string>
+    <string name="keep_pair">Continuar</string>
+    <string name="edit_login">Editar Cadastro</string>
 </resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/bg_inicial">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/check"
+        android:layout_weight="30"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/on_sync_success"
+        android:id="@+id/textView11"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:text="@string/account_picker_title"
+        android:id="@+id/textView10"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:text="@string/on_admin"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/button3"
+        android:backgroundTint="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onAdminChoice"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/non_admin"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/white"
+        android:onClick="onNonAdmin" />
+</LinearLayout>

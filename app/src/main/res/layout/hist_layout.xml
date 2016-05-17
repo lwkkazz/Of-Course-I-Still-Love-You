@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="35dp"
+    android:orientation="vertical"
+    tools:context="br.com.thinkb.save.HistActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:id="@+id/imageView4"
+        android:tint="@color/colorAccent"
+        android:src="@drawable/ic_alert"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="placeholder"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textColor="@color/dark_gray"
+        android:paddingBottom="30dp"
+
+        android:id="@+id/textView23" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:text="@android:string/ok"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:id="@+id/button9"
+        android:onClick="onAcknowledge"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"/>
+</LinearLayout>
